@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Tajawal:wght@200&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+
+
+li, a, button{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+  text-decoration: none;
+  color: black;
+}
+
+header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 2%;
+  height: 30px;   
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover{
+  color:black
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgb(121, 106, 84);
+}
+
+.one{
+
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: top;
+  font-size: 30px;
+
+
+}
+
+
+.two{
+
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: top;
+  font-size: 70px;
+
+}
+
+.three{
+
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: top;
+  font-size: 70px;
+
+
+
+}
+
+footer{
+  height: 55px;
+  background-color: antiquewhite;
+
+}
+
+
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+p{
+  font-size: 15px;
+}
+
+h1{
+  font-size: 50px;
+  justify-content:start;
+  margin-top: 0;
+  padding:0px;
+  left: 50px;
+  color: floralwhite;
+
+}
+
+.one{
+
+  height: 400px;
+}
+.two .card{
+
+  position:center;
+  width: 950px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.349);
+  overflow: hidden;
+  display: flex;
+  padding: 30px;
+  justify-content:center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+
+
+}
+
+.two{
+  background-color: rgb(247, 223, 201);
+
+}
+
+img {
+  border-radius: 20px;
+  padding: 10px;
+}
+.footer{
+  height: 10px;
+}
+.three .card:hover{
+  background-color: rgb(121, 106, 84);
+}
+.three .card{
+
+  position:center;
+  width: 340px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.349);
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+
+
+}
+
+.three{
+  height: 600px;
+  justify-content: center;
+
+}
+
+.one .card h1{
+
+  font-size: 170px;
+  position:relative;
+  bottom: 10px;
+
+}
+
+.one .card{
+  background-color: rgb(250, 219, 169);
+  border-radius: 15px;
+  height: 100px;
+  width: 700px;
+  top:1000px;
+
+}
+
+
+.one h1{
+  color: white;
+  font-size: 70px;
+}
+
+.card h1{
+  font-size: 30px;
+  color:white;
+
+}
+
+.three h2 {
+  position: absolute;
+  left: 50px;
+  top: 1000px;
+  right: 50px;
+  font-size: 50px;
+  background-color: rgb(255, 245, 245);
+  border-radius: 15px;
+
+}
+
+.three h3 {
+  position: absolute;
+  left: 50px;
+  top: 1080px;
+  right: 50px;
+  font-size: 15px;
+  background-color: rgb(226, 175, 166);
+  border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
